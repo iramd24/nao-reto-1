@@ -666,6 +666,11 @@ progress {
     max-width: 1320px;
   }
 }
+@media (min-width: 1200px) {
+  .form__container {
+    max-width: 60vw;
+  }
+}
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
@@ -11379,5 +11384,12 @@ header.masthead .bg-circle-4 {
   }
   header.masthead .masthead-content .masthead-subheading {
     font-size: 4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .description__text {
+    padding-left: unset !important;
+    padding-right: unset !important;
   }
 }
